@@ -11,7 +11,7 @@ img {
   border-radius: 15px;   /* redondea los bordes */
 }
 
-/* Header en rojo oscuro */
+
 h1 {
     color:#ffffff;
     background-color:#ff6d00;
@@ -60,13 +60,6 @@ body {
     background-color: #dfe6f0;
 }
 
-
-ul {
-  color: #0a0a0a;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 700; /* semibold */
- 
-}
 
 summary {
   color: #0a0a0a;
