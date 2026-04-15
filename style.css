@@ -27,7 +27,7 @@ h2{
     background-color: #a41d1d;
      text-decoration: underline;
     font-family: 'Montserrat Alternates';
-    font-weight: 600; /* SEMIBOLD */
+    font-weight:700; /* SEMIBOLD */
 }
 
 h3{
@@ -35,13 +35,13 @@ h3{
     background-color:#ff6d00;
         text-decoration: underline;
     font-family: 'Montserrat Alternates';
-    font-weight: 500; /* LIGHT */
+    font-weight:600; /* LIGHT */
 }
 
 p{
     color: #0a0a0a;
     font-family: 'Montserrat Alternates';
-    font-weight: 300; /* THIN */
+    font-weight:400; /* THIN */
 }
 
 body{
