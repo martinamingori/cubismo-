@@ -84,6 +84,13 @@ body {
   font-weight: 500;
 }
 
+footer {
+  background-color: #1f4054;   /* azul oscuro */
+               
+
+}
+
+
 /* 4. Dar borde al logo */
 header nav a img {
   border: 2px solid black;   /* borde negro alrededor del logo */
