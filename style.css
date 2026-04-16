@@ -66,18 +66,6 @@ p {
     font-weight:400; /* THIN */
 }
 
-.nav-header ul {
-  list-style: none;
-  gap: 20px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 700;
-}
-
-.nav-header a{
-  text-decoration: none;
-  color: #0a0a0a;
-}
-
 .faq summary {
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight:500;
