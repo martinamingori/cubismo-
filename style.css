@@ -67,10 +67,10 @@ body {
   text-decoration: none;
 }
 
-nav a {
-  text-decoration: none;   /* quita el subrayado */
-  font-weight: 400;        /* normal, sin bold */
-  color:#0a0a0a;          /* texto blanco (o el color que quieras) */
+.nav-header li{
+  text-decoration: none;
+  color: #0a0a0a;
+
 }
 
 /* Tipografía para las preguntas frecuentes */
