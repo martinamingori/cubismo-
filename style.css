@@ -8,7 +8,7 @@
 
 body {
     background-color: #dfe6f0;
-    font-family: 'Montserrat Alternates';
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 ul {
@@ -68,11 +68,12 @@ p {
 
 
 .nav-header ul {
+  list-style: none;
   font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 700; /* semibold */
+  font-weight:400;
 }
 
-/* Tipografía para las preguntas frecuentes */
+
 .faq summary {
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight:500;
