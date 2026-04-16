@@ -63,7 +63,7 @@ body {
 
 .nav-header ul {
   font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 700; /* semibold */
+  font-weight:500; 
 }
 
 /* Tipografía para las preguntas frecuentes */
