@@ -109,9 +109,6 @@ main {
 }
 
 @media (min-width: 700px) {
-  body {
-    background-color: rgb(155, 23, 153); /* violeta */
-  }
   p {
     column-count: 2; /* dos columnas */
   }
