@@ -87,7 +87,7 @@ body {
 }
 
 /* Tipografía para el footer */
-.nav-footer ul {
+nav.footer {
   background-color: #1f4054;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 500;
@@ -97,6 +97,15 @@ body {
 header nav a img {
   border: 2px solid black;   /* borde negro alrededor del logo */
   padding: 5px;              /* espacio interno */
+}
+
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  
 }
 
 @media (min-width: 700px) {
@@ -117,3 +126,11 @@ header nav a img {
     column-count: 3; /* tres columnas */
   }
 }
+
+main {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+
+}
+
