@@ -57,6 +57,13 @@ p {
 
 /*Estilos del navegador principal*/
 
+header {
+  background-color: #1f4054; /* azul */
+  width: 100%;              /* ocupa todo el ancho */
+  margin: 0;                /* sin márgenes */
+  padding: 0;               /* sin padding */
+}
+
 .nav-header{
     display:flex;
     justify-content: space-between;
