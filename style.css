@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Estilos generales*/
+body {
+    background-color: #dfe6f0;
+    font-family: monserrat alternates;
+}
+
+img {
+border-radius: 15px;
+}
+
+h1 {
+    color: #ff6d00;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+h2{
+    color: #0a0a0a;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+h3 {
+    color: #ff6d00;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+h4{
+    color: red;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+h5 {
+    color: green;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+p {
+    color: #0a0a0a;
+    font-weight: 400;
+    column-count: 1;
+    column-gap: 20px;
+}
+
+/*Estilos del navegador principal*/
+
+.nav-header ul{
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-header ul li{
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+.nav-header a{
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+/*Tipografia preguntas frecuentes*/
+
+.faq summary {
+     font-weight: 400;
+}
+
+
+.faq p {
+    font-weight: 400;
+}
+
+footer {
+    background-color: #1f4054;
+    font-weight: 400;
+}
+
+
