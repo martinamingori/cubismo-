@@ -57,20 +57,16 @@ p {
 
 /*Estilos del navegador principal*/
 
-header {
-  background-color: #1f4054; /* azul */
-  width: 100%;              /* ocupa todo el ancho */
-  margin: 0;                /* sin márgenes */
-  padding: 0;               /* sin padding */
-}
-
 .nav-header{
     display:flex;
     justify-content: space-between;
     gap: 20px;
     font-family: "Montserrat Alternates";
     font-weight: 500;
-    background-color: #1f4054;
+     background-color: #1f4054; 
+    width: 100%;             
+    margin: 0;               
+    padding: 0;
 }
 
 .nav-header ul{
