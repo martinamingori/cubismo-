@@ -16,6 +16,8 @@ img {
 border-radius: 15px;
 }
 
+/*Estilos de los titulos*/
+
 h1 {
     color: #ff6d00;
     text-decoration: underline;
@@ -55,9 +57,18 @@ p {
 
 /*Estilos del navegador principal*/
 
+.nav-header{
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "Montserrat Alternates";
+    font-weight: 500;
+}
+
 .nav-header ul{
     font-weight: 500;
     text-decoration: none;
+    color: #0a0a0a;
 }
 
 .nav-header ul li{
@@ -88,10 +99,32 @@ flex-wrap: wrap;
     font-weight: 400;
 }
 
+/*Footer - estilos*/
+
 footer {
     background-color: #1f4054;
     font-weight: 400;
 }
 
+/*CELULAR*/
 
+@media (min-width: 460px){
+    /*Celular*/
+    p {
+        column-count: 1;
+    }
+}
 
+@media (min-width: 700px) {
+    /*Tablet*/
+    p {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    /*Desktop*/
+    p {
+        column-count: 3;
+    }
+}
